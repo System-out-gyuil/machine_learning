@@ -1,0 +1,28 @@
+iris 데이터프레임
+from sklearn.datasets import load_iris
+
+학습데이터세트와 테스트 데이터세트를 분리해주는 라이브러리
+from sklearn.model_selection import train_test_split
+
+교차검증
+
+KFold
+from sklearn.model_selection import KFold
+
+StratifiedKFold
+from sklearn.model_selection import StratifiedKFold
+
+cross_val_score
+from sklearn.model_selection import cross_val_score
+
+교차 검증과 최적의 하이퍼 파라미터 튜닝을 한 번에 할 수 있는 객체
+from sklearn.model_selection import GridSearchCV
+
+결정 트리, 데이터의 스케일링, 정규화
+from sklearn.tree import DecisionTreeClassifier
+
+결정트리 모델을 시각화
+from sklearn.tree import export_graphviz
+
+모델이 얼마나 잘 예측했는 지를 정확도로 평가
+from sklearn.metrics import accuracy_score
